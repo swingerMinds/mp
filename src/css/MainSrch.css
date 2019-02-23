@@ -1,0 +1,11 @@
+.divH {
+  background: url("http://all4desktop.com/data_images/original/4189666-reflection-of-autumn-trees.jpg")
+    no-repeat center center fixed;
+
+  width: 100vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(1, [col-start] 1fr);
+  grid-gap: 20px;
+  z-index: -10;
+}
